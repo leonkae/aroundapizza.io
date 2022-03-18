@@ -6,7 +6,6 @@ body {
   margin: 0%;
 }
 .container {
-  
   background-image: url(images/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg);
   justify-content: center;
   align-items: center;
@@ -21,12 +20,92 @@ body {
   font-family: "Rock Salt", cursive;
   color: rgb(255, 174, 0);
 }
-.content-wrapper{
-    display: flex;
+.content-title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
 }
 
-.box{
-    border: 3px solid red;
-    width: 50%;
-    height: 300px
+.box {
+  font-family: "Rock Salt", cursive;
 }
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.size {
+  font-family: "Rock Salt", cursive;
+  font-size: 2.5vh;
+}
+
+.toppings {
+  /* margin: 10px; */
+  font-family: "Rock Salt", cursive;
+  font-size: 2.5vh;
+}
+
+.crust {
+  /* margin: 10px; */
+  font-family: "Rock Salt", cursive;
+  font-size: 2.5vh;
+}
+
+#size {
+  width: 250px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+}
+
+#toppings {
+  width: 250px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+}
+
+#crust {
+  width: 250px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+}
+
+/* .options-wrapper{
+  display: flex;
+  justify-content: center;
+
+}
+#size {
+  width: 20%;
+  height: 30px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#toppings {
+  width: 20%;
+  height: 30px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.size-title{
+  position: relative;
+  text-align: center;
+
+} */
