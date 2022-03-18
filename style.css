@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+body {
+  margin-top: 0%;
+  margin: 0%;
+}
+.container {
+  
+  background-image: url(images/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrapper {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-family: "Rock Salt", cursive;
+  color: rgb(255, 174, 0);
+}
+.content-wrapper{
+    display: flex;
+}
+
+.box{
+    border: 3px solid red;
+    width: 50%;
+    height: 300px
+}
