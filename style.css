@@ -74,37 +74,3 @@ body {
   font-family: "Rock Salt", cursive;
 }
 
-/* .options-wrapper{
-  display: flex;
-  justify-content: center;
-
-}
-#size {
-  width: 20%;
-  height: 30px;
-  background-color: black;
-  color: rgb(255, 174, 0);
-  font-family: "Rock Salt", cursive;
-  font-size: large;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-#toppings {
-  width: 20%;
-  height: 30px;
-  background-color: black;
-  color: rgb(255, 174, 0);
-  font-family: "Rock Salt", cursive;
-  font-size: large;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-.size-title{
-  position: relative;
-  text-align: center;
-
-} */
