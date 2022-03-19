@@ -152,3 +152,8 @@ body {
   font-family: "Rock Salt", cursive;
   font-size: 70px;
 }
+
+.hide{
+  display: none;
+  
+}

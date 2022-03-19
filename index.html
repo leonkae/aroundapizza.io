@@ -46,55 +46,57 @@
     </div>
 
     <div class="content-title">
-      <div class="box">
-        <h2>Get Around To Odering A Pizzaaa!</h2>
-      </div>
-
-      <div class="content-wrapper">
-        <div class="size">
-          <h3>size</h3>
-          <select name="size" id="size">
-            <option value="400" id="small">small</option>
-            <option value="500" id="medium">medium</option>
-            <option value="600" id="large">large</option>
-          </select>
+      <form action="" id="form-wrapper">
+        <div class="box">
+          <h2>Get Around To Odering A Pizzaaa!</h2>
         </div>
 
-        <div class="toppings">
-          <h3>toppings</h3>
-          <select name="toppings" id="toppings">
-            <option value="150" id="bacon">Bacon</option>
-            <option value="150" id="sausage">Sausage</option>
-            <option value="150" id="pepperoni">pepperoni</option>
-            <option value="150" id="black-olives">black olives</option>
-          </select>
+        <div class="content-wrapper">
+          <div class="size">
+            <h3>size</h3>
+            <select name="size" id="size">
+              <option value="400" id="small">small</option>
+              <option value="500" id="medium">medium</option>
+              <option value="600" id="large">large</option>
+            </select>
+          </div>
+
+          <div class="toppings">
+            <h3>toppings</h3>
+            <select name="toppings" id="toppings">
+              <option value="150" id="bacon">Bacon</option>
+              <option value="150" id="sausage">Sausage</option>
+              <option value="150" id="pepperoni">pepperoni</option>
+              <option value="150" id="black-olives">black olives</option>
+            </select>
+          </div>
+
+          <div class="crust">
+            <h3>crust</h3>
+            <select name="crust" id="crust">
+              <option value="120" id="chicago-deep">Chicago deep</option>
+              <option value="120" id="thin-paris">Thin Paris</option>
+              <option value="120" id="classic">Classic</option>
+            </select>
+          </div>
+
+          <div class="poisons">
+            <h3>Poisons</h3>
+            <select name="Poisons" id="poisons">
+              <option value="450" id="yager-bomb">Yager Bomb</option>
+              <option value="450" id="screw-driver">Screw driver</option>
+              <option value="640" id="classic-whiskey">Classic-whiskey</option>
+            </select>
+          </div>
         </div>
 
-        <div class="crust">
-          <h3>crust</h3>
-          <select name="crust" id="crust">
-            <option value="120" id="chicago-deep">Chicago deep</option>
-            <option value="120" id="thin-paris">Thin Paris</option>
-            <option value="120" id="classic">Classic</option>
-          </select>
+        <div class="button">
+          <button type="submit" class="order-button" id="order">order</button>
         </div>
-
-        <div class="poisons">
-          <h3>Poisons</h3>
-          <select name="Poisons" id="poisons">
-            <option value="450" id="yager-bomb">Yager Bomb</option>
-            <option value="450" id="screw-driver">Screw driver</option>
-            <option value="640" id="classic-whiskey">Classic-whiskey</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="button">
-        <button class="order-button" id="order">order</button>
-      </div>
+      </form>
     </div>
 
-    <div class="table">
+    <div class="table hide" id="table-content">
       <table class="table-content">
         <thead>
           <tr>
@@ -109,11 +111,11 @@
         <tbody id="pizza">
           <tr>
             <th>1</th>
-            <td id="size">small</td>
-            <td id="toppings">mashrooms</td>
-            <td id="crust">classic</td>
-            <td id="poisons">yager bomb</td>
-            <td id="total">50000/=</td>
+            <td id="sizeone"></td>
+            <td id="toppingsone"></td>
+            <td id="crustone"></td>
+            <td id="poisonsone"></td>
+            <td id="totalone"></td>
           </tr>
         </tbody>
       </table>
@@ -122,28 +124,36 @@
         <button class="add-pizza" type="submit">one more?</button>
 
         <form action="/action_page.php">
-          <input type="checkbox" id="delivery" name="delivery" value="delivery"
-          style="margin: 20px;">
+          <input
+            type="checkbox"
+            id="delivery"
+            name="delivery"
+            value="delivery"
+            style="margin: 20px"
+          />
           <label for="delivery">delivery @100bob</label>
         </form>
-        <input class="delivery-location" type="text" id="location" placeholder=" delivery location?">
-
+        <input
+          class="delivery-location"
+          type="text"
+          id="location"
+          placeholder=" delivery location?"
+        />
       </div>
     </div>
 
     <div class="checkout-wrapper">
-      <button class="check-out">checkout</button>
+      <button class="check-out hide">checkout</button>
     </div>
 
-
-<!-- 
+    <!-- 
     <div class="checkout-wrapper">
       
 
       <div class="check-out-info"></div>
     </div> -->
 
-    <div class="footer">footer</div>
+    <div class="footer">thank you</div>
 
     <script src="main.js"></script>
 
