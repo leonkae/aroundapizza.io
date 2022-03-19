@@ -95,7 +95,40 @@ body {
   margin: 40px;
 }
 
-
+.add-pizza {
+  font-family: "Rock Salt", cursive;
+  cursor: pointer;
+  color: rgb(255, 174, 0);
+  background-color: black;
+}
+.btn-choice {
+  display: flex;
+  /* border: 3px solid red; */
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+}
+.delivery-location {
+  font-family: "Rock Salt", cursive;
+  color: rgb(255, 174, 0);
+  background-color: black;
+}
+.order-button {
+  font-family: "Rock Salt", cursive;
+  cursor: pointer;
+  color: rgb(255, 174, 0);
+  background-color: black;
+}
+.checkout-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+.check-out {
+  font-family: "Rock Salt", cursive;
+  cursor: pointer;
+  color: rgb(255, 174, 0);
+  background-color: black;
+}
 
 .table-content {
   background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
