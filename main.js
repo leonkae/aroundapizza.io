@@ -4,6 +4,8 @@ let crust = document.getElementById("crust");
 let poisons = document.getElementById("poisons");
 let total = document.getElementById("totalone");
 let totalArray = [];
+let table = document.getElementById("table-content");
+let ordernum = document.getElementById("order-num");
 
 let sizeone = document.getElementById("sizeone");
 let toppingsone = document.getElementById("toppingsone");
@@ -24,18 +26,26 @@ form.addEventListener("submit", function (event) {
     parseInt(crustValue) +
     parseInt(poisonsValue);
   totalArray.push(totaltwo);
-  totalArray.reduce(sum,num => sum + num);
+  let tallarr = totalArray.reduce((sum, num) => sum + num);
 
+  ordernum.textContent = totalArray.length;
   sizeone.textContent = sizeValue;
   toppingsone.textContent = toppingsValue;
   crustone.textContent = crustValue;
   poisonsone.textContent = poisonsValue;
-  total.textContent = totaltwo;
+  total.textContent = tallarr;
+//   let newRow = document.createElement("tr"); 
+//   let newtd = newRow.appendChild("td")
+//   newtd.textContent = sizeValue
 
-  let table = document.getElementById("table-content");
+
   table.classList.remove("hide");
 });
 
+let onemore = document.getElementById("one-more");
+onemore.addEventListener("click", function () {
+  table.classList.add("hide");
+});
 // $(document).ready(function () {
 //   $(".order-btn").click(function () {
 //     let size = $(".size option:selected").val();
