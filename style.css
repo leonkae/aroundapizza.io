@@ -28,7 +28,6 @@ body {
   align-items: center;
   text-align: center;
   font-size: x-large;
-  
 }
 
 .box {
@@ -93,27 +92,21 @@ body {
   color: rgb(255, 174, 0);
   font-family: "Rock Salt", cursive;
   cursor: pointer;
+  margin: 40px;
 }
 
-.table {
+
+
+.table-content {
+  background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
   justify-content: center;
   align-items: center;
   border: 3px solid black;
   text-align: center;
-  margin: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
   font-family: "Rock Salt", cursive;
-
-
-}
-
-.table-content{
-    background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
-  justify-content: center;
-  align-items: center;
-  border: 3px solid black;
-  text-align: center;
-  margin: 50px;
-  font-family: "Rock Salt", cursive
 }
 
 .footer {
@@ -126,4 +119,3 @@ body {
   font-family: "Rock Salt", cursive;
   font-size: 70px;
 }
-
