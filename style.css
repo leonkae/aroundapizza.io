@@ -4,6 +4,7 @@ html {
 body {
   margin-top: 0%;
   margin: 0%;
+  /* background-image: url(im); */
 }
 .container {
   background-image: url(images/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg);
@@ -26,6 +27,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: x-large;
+  
 }
 
 .box {
@@ -37,7 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 170px;
+  /* margin-bottom: 170px; */
 }
 
 .size {
@@ -51,6 +53,10 @@ body {
 }
 
 .crust {
+  font-family: "Rock Salt", cursive;
+  font-size: 2.5vh;
+}
+.poisons {
   font-family: "Rock Salt", cursive;
   font-size: 2.5vh;
 }
@@ -75,11 +81,38 @@ body {
   color: rgb(255, 174, 0);
   font-family: "Rock Salt", cursive;
 }
-#submit{
+#poisons {
+  width: 250px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+}
+#submit {
   background-color: black;
   color: rgb(255, 174, 0);
   font-family: "Rock Salt", cursive;
   cursor: pointer;
+}
+
+.table {
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  text-align: center;
+  margin: 50px;
+  font-family: "Rock Salt", cursive;
+
+
+}
+
+.table-content{
+    background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  text-align: center;
+  margin: 50px;
+  font-family: "Rock Salt", cursive
 }
 
 .footer {
@@ -92,5 +125,4 @@ body {
   font-family: "Rock Salt", cursive;
   font-size: 70px;
 }
-
 
