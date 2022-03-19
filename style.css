@@ -21,14 +21,20 @@ body {
   color: rgb(255, 174, 0);
 }
 .content-title {
+  padding: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: x-large;
+  /* background-image: url(images/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg); */
 }
 
 .box {
+  margin: 0%;
+  padding: 5px;
   font-family: "Rock Salt", cursive;
+  background-image: url(images/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg);
+
 }
 .content-wrapper {
   display: flex;
