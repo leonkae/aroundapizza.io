@@ -92,6 +92,15 @@
               <option value="640" id="classic-whiskey">Classic-whiskey</option>
             </select>
           </div>
+
+          <div class="delivery">
+            <h3>delivery</h3>
+            <select name="delivery" id="delivery">
+              <option value="0" id="delivery">none</option>
+              <option value="100" id="delivery">yes</option>
+              <option value="0" id="delivery">No</option>
+            </select>
+          </div>
         </div>
 
         <div class="button">
@@ -109,6 +118,7 @@
             <th>Toppings</th>
             <th>Crust</th>
             <th>Poisons</th>
+            <th>delivery</th>
             <th>Total</th>
           </tr>
         </thead>
@@ -119,6 +129,7 @@
             <td id="toppingsone"></td>
             <td id="crustone"></td>
             <td id="poisonsone"></td>
+            <td id="deliveryone"></td>
             <td id="totalone"></td>
           </tr>
         </tbody>
@@ -127,16 +138,16 @@
       <div class="btn-choice">
         <button class="add-pizza" type="submit" id="one-more">one more?</button>
 
-        <form action="/action_page.php">
+        <!-- <form action="/action_page.php">
           <input
             type="checkbox"
             id="delivery"
             name="delivery"
-            value="delivery"
+            value="100"
             style="margin: 20px"
           />
           <label for="delivery">delivery @100bob</label>
-        </form>
+        </form> -->
         <input
           class="delivery-location"
           type="text"

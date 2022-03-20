@@ -60,6 +60,10 @@ body {
   font-family: "Rock Salt", cursive;
   font-size: 2.5vh;
 }
+.delivery{
+   font-family: "Rock Salt", cursive;
+  font-size: 2.5vh;
+}
 
 #size {
   width: 250px;
@@ -94,7 +98,12 @@ body {
   cursor: pointer;
   margin: 40px;
 }
-
+#delivery{
+  width: 250px;
+  background-color: black;
+  color: rgb(255, 174, 0);
+  font-family: "Rock Salt", cursive;
+}
 .add-pizza {
   font-family: "Rock Salt", cursive;
   cursor: pointer;
@@ -136,7 +145,7 @@ body {
   align-items: center;
   border: 3px solid black;
   text-align: center;
-  margin-left: 36.5%;
+  margin-left: 34%;
   margin-right: 0%;
   margin-bottom: 20px;
   font-family: "Rock Salt", cursive;
