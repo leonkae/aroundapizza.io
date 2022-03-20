@@ -131,19 +131,20 @@ body {
 }
 
 .table-content {
-  background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
+  /* background-image: url(images/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg); */
   justify-content: center;
   align-items: center;
   border: 3px solid black;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 36.5%;
+  margin-right: 0%;
   margin-bottom: 20px;
   font-family: "Rock Salt", cursive;
+  padding: 10px;
 }
 
 .footer {
-  height: 165px;
+  height: 265px;
   background-image: url(images/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg);
   text-align: center;
   align-items: center;
