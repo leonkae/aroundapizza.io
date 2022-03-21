@@ -63,8 +63,8 @@ body {
   font-family: "Rock Salt", cursive;
   font-size: 2.5vh;
 }
-.delivery{
-   font-family: "Rock Salt", cursive;
+.delivery {
+  font-family: "Rock Salt", cursive;
   font-size: 2.5vh;
 }
 
@@ -101,7 +101,7 @@ body {
   cursor: pointer;
   margin: 40px;
 }
-#delivery{
+#delivery {
   width: 250px;
   background-color: black;
   color: rgb(255, 174, 0);
@@ -157,19 +157,25 @@ body {
   background-color: rgba(255, 99, 71, 0.507);
 }
 
-
 .footer {
   height: 278px;
   background-image: url(images/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg);
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 174, 0);
+  color: rgb(3, 3, 3);
   font-family: "Rock Salt", cursive;
   font-size: 70px;
 }
 
-.hide{
+.footer-text {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
   display: none;
-  
 }
