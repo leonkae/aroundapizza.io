@@ -7,6 +7,10 @@ let totalArray = [];
 let table = document.getElementById("table-content");
 let ordernum = document.getElementById("order-num");
 let delivery = document.getElementById("delivery");
+let checkOut = document.getElementById("checkoutbtn");
+let checkouttext = document.getElementById("checkouttext");
+let location2 = document.getElementById("location")
+  console.log(location2);
 // console.log(delivery);
 
 let sizeone = document.getElementById("sizeone");
@@ -18,6 +22,15 @@ let deliveryone = document.getElementById("deliveryone");
 let form = document.getElementById("form-wrapper");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+  checkOut.classList.add("hide2");
+
+  checkOut.addEventListener("click", function(){
+    let location3 = location2.value
+
+    checkouttext.textContent = `total is ${totaltwo} rider dispatched to ${location3}`
+  })
+  // let checkOut = document.querySelector(".hide");
+  // checkOut.classList.add("hide2")
 
   let sizeValue = size.value;
   let toppingsValue = toppings.value;
@@ -40,7 +53,7 @@ form.addEventListener("submit", function (event) {
   poisonsone.textContent = poisonsValue;
   deliveryone.textContent = deliveryValue;
   total.textContent = tallarr;
-  
+
   //   let newRow = document.createElement("tr");
   //   let newtd = newRow.appendChild("td")
   //   newtd.textContent = sizeValue
@@ -51,4 +64,9 @@ form.addEventListener("submit", function (event) {
 let onemore = document.getElementById("one-more");
 onemore.addEventListener("click", function () {
   table.classList.add("hide");
+
+  // let checkOut = document.getElementById("check-out");
+  // checkOut.addEventListener("click", function (){
+
+  // } )
 });

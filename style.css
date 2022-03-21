@@ -135,11 +135,12 @@ body {
   text-align: center;
   margin: 20px;
 }
-.check-out {
+.checkOut {
   font-family: "Rock Salt", cursive;
   cursor: pointer;
   color: rgb(255, 174, 0);
   background-color: black;
+  display: none;
 }
 
 .table-content {
@@ -178,4 +179,7 @@ body {
 
 .hide {
   display: none;
+}
+.hide2{
+  display: block;
 }
