@@ -5,7 +5,9 @@ html {
 body {
   margin-top: 0%;
   margin: 0%;
-  /* background-image: url(im); */
+  background-image: url(images/Pizza-Background-1024x683.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   background-image: url(images/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg);
@@ -150,10 +152,13 @@ body {
   margin-bottom: 20px;
   font-family: "Rock Salt", cursive;
   padding: 10px;
+  /* color:  rgb(255, 174, 0); */
+  background-color: rgba(255, 99, 71, 0.507);
 }
 
+
 .footer {
-  height: 265px;
+  height: 278px;
   background-image: url(images/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg);
   text-align: center;
   align-items: center;
